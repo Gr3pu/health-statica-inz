@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myhealth"
+            android:icon="@drawable/ic_nav_my_health"
+            android:title="@string/Common_Drawer_Nav_MyHealth" />
+<!--        <item-->
+<!--            android:id="@+id/nav_diagnoses"-->
+<!--            android:icon="@drawable/ic_nav_diagnoses"-->
+<!--            android:title="@string/Common_Drawer_Nav_Diagnoses" />-->
+        <item
+            android:id="@+id/nav_archive"
+            android:icon="@drawable/ic_nav_archive"
+            android:title="@string/Common_Drawer_Nav_Archive" />
+    </group>
+
+
+    <group android:checkableBehavior="single" android:title="@string/Common_Drawer_Title_UserSection">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_nav_profile"
+            android:title="@string/Common_Drawer_Nav_Profile" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_nav_profile_notifications"
+            android:title="@string/Common_Drawer_Nav_NotificationPreferences" />
+    </group>
+
+
+    <group
+        android:checkableBehavior="single"
+        android:title="@string/Common_Drawer_Title_Other">
+        <item
+            android:id="@+id/nav_subscriptions"
+            android:icon="@drawable/ic_nav_subscriptions"
+            android:title="@string/Common_Drawer_Nav_Subscriptions" />
+        <item
+            android:id="@+id/nav_lawarticles"
+            android:icon="@drawable/ic_nav_law_informations"
+            android:title="@string/Common_Drawer_Nav_LawInformations" />
+    </group>
+
+</menu>

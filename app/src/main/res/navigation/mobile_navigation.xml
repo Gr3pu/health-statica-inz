@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_subscriptions">
+
+    <fragment
+        android:id="@+id/nav_myhealth"
+        android:name="eu.codetown.healthstatica.screens.myhealth.MyHealthScreen"
+        android:label="@string/Common_Drawer_Nav_MyHealth"
+        tools:layout="eu.codetown.healthstatica.screens.myhealth.MyHealthLayout" />
+
+    <fragment
+        android:id="@+id/nav_diagnoses"
+        android:name="eu.codetown.healthstatica.screens.diagnoses.DiagnosesScreen"
+        android:label="@string/Common_Drawer_Nav_Diagnoses"
+        tools:layout="eu.codetown.healthstatica.screens.diagnoses.DiagnosesLayout" />
+
+    <fragment
+        android:id="@+id/nav_archive"
+        android:name="eu.codetown.healthstatica.screens.archive.ArchiveScreen"
+        android:label="@string/Common_Drawer_Nav_Archive"
+        tools:layout="eu.codetown.healthstatica.screens.archive.ArchiveLayout" />
+
+
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="eu.codetown.healthstatica.screens.profile.ProfileScreen"
+        android:label="@string/Common_Drawer_Nav_Profile"
+        tools:layout="eu.codetown.healthstatica.screens.profile.ProfileLayout" />
+
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="eu.codetown.healthstatica.screens.notifications.NotificationsScreen"
+        android:label="@string/Common_Drawer_Nav_NotificationPreferences"
+        tools:layout="eu.codetown.healthstatica.screens.notifications.NotificationsLayout" />
+
+    <fragment
+        android:id="@+id/nav_mysubscription"
+        android:name="eu.codetown.healthstatica.screens.mysubscription.MySubscriptionScreen"
+        android:label="@string/Common_Drawer_Nav_Subscription"
+        tools:layout="eu.codetown.healthstatica.screens.mysubscription.MySubscriptionLayout" />
+
+
+
+    <fragment
+        android:id="@+id/nav_subscriptions"
+        android:name="eu.codetown.healthstatica.subscribtions.SubscribtionsScreen"
+        android:label="@string/Common_Drawer_Nav_Subscriptions"
+        tools:layout="eu.codetown.healthstatica.subscribtions.SubscribtionsScreen" />
+
+    <fragment
+        android:id="@+id/nav_lawarticles"
+        android:name="eu.codetown.healthstatica.lawArticles.LawArticlesScreen"
+        tools:layout="eu.codetown.healthstatica.lawArticles.mvp.LawArticlesLayout"
+        android:label="@string/Common_Drawer_Nav_LawInformations" />
+
+</navigation>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "681088118363",
+    "firebase_url": "https://healthstatica-e0c3f.firebaseio.com",
+    "project_id": "healthstatica-e0c3f",
+    "storage_bucket": "healthstatica-e0c3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681088118363:android:8d4f6df0141fc6dd3ed97e",
+        "android_client_info": {
+          "package_name": "eu.codetown.healthstatica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681088118363-hc0ts3tcf0eu48mdkiq1v3sh0ootkpji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.codetown.healthstatica",
+            "certificate_hash": "565c5874dbcb7d4d399653826d48db32a94307fb"
+          }
+        },
+        {
+          "client_id": "681088118363-j7jm6vgidd90gl8pi075gdvc6567j1u0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM1DlnSnDcBsvR4OT43Axv64JKOqoxRhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681088118363-j7jm6vgidd90gl8pi075gdvc6567j1u0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

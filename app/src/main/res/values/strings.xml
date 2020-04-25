@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Health Statica</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Common_Drawer_Title_UserSection">Konto</string>
+    <string name="Common_Drawer_Title_Other">Inne</string>
+
+    <string name="Common_Drawer_Nav_MyHealth">Moje zdrowie</string>
+    <string name="Common_Drawer_Nav_Diagnoses">Diagnozy</string>
+    <string name="Common_Drawer_Nav_Archive">Archiwum pomiarów</string>
+    <string name="Common_Drawer_Nav_Profile">Mój profil</string>
+    <string name="Common_Drawer_Nav_NotificationPreferences">Ustawienia powiadomień</string>
+    <string name="Common_Drawer_Nav_Subscription">Moja subskrypcja</string>
+    <string name="Common_Drawer_Nav_Subscriptions">Subskrypcje</string>
+    <string name="Common_Drawer_Nav_LawInformations">Informacje prawne</string>
+
+
+    <string name="LoginView_Header_Login">Logowanie</string>
+    <string name="LoginView_Header_Registration">Rejestracja</string>
+    <string name="LoginView_Header_Recovery">Odzyskaj hasło</string>
+
+    <string name="LoginView_EmailInput_Label">Email</string>
+    <string name="LoginView_PasswordInput_Label">Hasło</string>
+    <string name="LoginView_PasswordConfirmationInput_Label">Powtórz hasło</string>
+
+    <string name="LoginView_LoginLink_Text">Masz konto? Zaloguj się.</string>
+    <string name="LoginView_RegistrationLink_Text">Nie masz konta? Załóż nowe.</string>
+    <string name="LoginView_RecoveryLink_Text">Odzyskaj hasło.</string>
+
+    <string name="LoginView_Button_Text">Wyślij.</string>
+
+    <string name="LoginView_WebLink_Text">regulamin i polityka prywatności</string>
+</resources>
